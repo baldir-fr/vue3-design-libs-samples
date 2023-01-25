@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <h1>Bulma</h1>
+  <h1>Buefy</h1>
   <p>TODO</p>
 </template>
 
