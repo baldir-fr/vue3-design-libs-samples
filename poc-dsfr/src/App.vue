@@ -28,18 +28,10 @@ const loadFromBackend = async () => movies.value = await allMovies()
         </div>
         <div id="contenu" class="fr-col-12 fr-col-md-8 fr-py-12v">
           <FilAriane/>
-          <h1>Design System d'Etat</h1>
+          <h1>DSFR</h1>
           <div>
             <div class="fr-editor">
-              <div class="fr-grid-row fr-mb-3w">
-                <div class="fr-col">
-                  <div class="fr-alert fr-alert--info">
-                    <h3 class="fr-alert__title">La version 1.8.5 est disponible !</h3>
-                    <p>Retrouvez la liste des nouveautés dans la <a href="/version-courante">note de version</a>, vous
-                      pouvez la télécharger ci-dessous !</p>
-                  </div>
-                </div>
-              </div>
+
               <div class="fr-grid-row">
                 <div class="fr-col">
                   <button class="fr-btn" @click="loadFromBackend">
@@ -73,6 +65,15 @@ const loadFromBackend = async () => movies.value = await allMovies()
                       </tbody>
                     </table>
 
+                  </div>
+                </div>
+              </div>
+              <div class="fr-grid-row fr-mb-3w">
+                <div class="fr-col">
+                  <div class="fr-alert fr-alert--info">
+                    <h3 class="fr-alert__title">La version 1.8.5 est disponible !</h3>
+                    <p>Retrouvez la liste des nouveautés dans la <a href="/version-courante">note de version</a>, vous
+                      pouvez la télécharger ci-dessous !</p>
                   </div>
                 </div>
               </div>

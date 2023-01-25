@@ -9,7 +9,7 @@
       <div id="sidemenu-286" class="fr-collapse" data-fr-js-collapse="true">
         <ul class="fr-sidemenu__list" data-fr-js-sidemenu-list="true">
           <li class="fr-sidemenu__item"><a href="/comment-utiliser-le-dsfr/perimetre-d-application-du-dsfr"
-                                           target="_self" class="fr-sidemenu__link"> Périmètre d'application</a>
+                                           target="_self" class="fr-sidemenu__link"> Nav 1</a>
             <div id="comment-utiliser-le-dsfr-perimetre-d-application-du-dsfr" class="fr-collapse fr-colapse"
                  data-fr-js-collapse="true">
               <ul class="fr-sidemenu__list" data-fr-js-sidemenu-list="true"></ul>
@@ -18,7 +18,7 @@
           <li class="fr-sidemenu__item">
             <button aria-expanded="true" aria-controls="comment-utiliser-le-dsfr-developpeurs"
                     class="fr-sidemenu__btn" data-fr-js-collapse-button="true">
-              Développeurs
+              Nav 2
             </button>
             <div id="comment-utiliser-le-dsfr-developpeurs"
                  class="fr-collapse fr-colapse fr-collapse--expanded fr-collapsing" data-fr-js-collapse="true"
@@ -26,11 +26,10 @@
               <ul class="fr-sidemenu__list" data-fr-js-sidemenu-list="true">
                 <li class="fr-sidemenu__item fr-sidemenu__item--active"><a
                     href="/comment-utiliser-le-dsfr/developpeurs/prise-en-main-du-dsfr" aria-current="page"
-                    target="_self" class="fr-sidemenu__link router-link-exact-active router-link-active">Prise
-                  en main du DSFR</a></li>
+                    target="_self" class="fr-sidemenu__link router-link-exact-active router-link-active">Item 1</a></li>
                 <li class="fr-sidemenu__item"><a
                     href="/comment-utiliser-le-dsfr/developpeurs/les-portages-dsfr-en-cours" target="_self"
-                    class="fr-sidemenu__link">Portage du code</a></li>
+                    class="fr-sidemenu__link">Item 2</a></li>
               </ul>
             </div>
           </li>
