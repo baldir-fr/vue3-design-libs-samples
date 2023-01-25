@@ -1,18 +1,8 @@
-<template>
-  <q-page class="row items-center justify-evenly">
-    <example-component
-      title="Example component"
-      active
-      :todos="todos"
-      :meta="meta"
-    ></example-component>
-  </q-page>
-</template>
-
 <script setup lang="ts">
-import { Todo, Meta } from 'components/models';
+import {Meta, Todo} from 'components/models';
 import ExampleComponent from 'components/ExampleComponent.vue';
-import { ref } from 'vue';
+import {ref} from 'vue';
+import {allMovies, Movie} from '../api'
 
 const todos = ref<Todo[]>([
   {
@@ -39,4 +29,20 @@ const todos = ref<Todo[]>([
 const meta = ref<Meta>({
   totalCount: 1200
 });
+
+const movies = ref<Movie[]>()
+const loadMovies = async () => movies.value = await allMovies()
 </script>
+<template>
+  <q-page class="row items-center justify-evenly">
+    <q-btn @click="loadMovies">Load movies</q-btn>
+    <p>{{ movies }}</p>
+    <example-component
+      title="Example component"
+      active
+      :todos="todos"
+      :meta="meta"
+    ></example-component>
+  </q-page>
+</template>
+

@@ -1,8 +1,14 @@
 <script setup lang="ts">
-import {Collapse} from 'bootstrap'
+import {allMovies, Movie} from './api'
+import {ref} from "vue";
+
+const movies = ref<Movie[]>()
+const loadMovies = async () => movies.value = await allMovies()
 </script>
 
 <template>
+  <button @click="loadMovies">Load movies</button>
+  <p>{{movies}}</p>
   <div class="accordion" id="accordionExample">
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingOne">

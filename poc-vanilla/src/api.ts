@@ -1,14 +1,14 @@
 import axios from 'axios'
 
 export const allMovies = async (): Promise<Movie[]> =>
-    await axios.get<HalResponse>("http://localhost:8080/movies")
+    await axios.get<HalResponse>('http://localhost:8080/movies')
         .then(axiosResponse => axiosResponse.data._embedded.movies)
 
 export interface Movie {
-    title: String
+    title: string
     released: Date
-    "duration": String
-    "actors": String[]
+    duration: string
+    actors: string[]
 }
 
 interface HalResponse {
@@ -18,10 +18,10 @@ interface HalResponse {
     }
     _links: {
         self: {
-            href: String
+            href: string
         }
         profile: {
-            href: String
+            href: string
         }
     }
     page: HalPage
@@ -31,10 +31,10 @@ interface HalResponse {
 interface HalMovie extends Movie {
     _links: {
         self: {
-            href: String
+            href: string
         },
         movie: {
-            "href": String
+            "href": string
         }
     }
 }

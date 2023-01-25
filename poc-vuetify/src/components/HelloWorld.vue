@@ -1,3 +1,11 @@
+<script setup lang="ts">
+
+import {allMovies, Movie} from '@/api'
+import {ref} from "vue";
+
+const movies = ref<Movie[]>()
+const loadMovies = async () => movies.value = await allMovies()
+</script>
 <template>
   <v-container class="fill-height">
     <v-responsive class="d-flex align-center text-center fill-height">
@@ -6,6 +14,9 @@
         height="300"
         src="@/assets/logo.svg"
       />
+
+      <v-button @click="loadMovies">Load movies</v-button>
+      <p>{{ movies }}</p>
 
       <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
 
@@ -74,6 +85,3 @@
   </v-container>
 </template>
 
-<script setup lang="ts">
-  //
-</script>
