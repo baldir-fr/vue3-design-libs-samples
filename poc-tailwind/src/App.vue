@@ -1,47 +1,34 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
   <main>
-    <TheWelcome />
+    <h1 class="text-3xl font-bold underline">
+      Tailwind
+    </h1>
+    <p>Lorem Elsass ipsum consectetur Strasbourg Huguette rhoncus morbi leo Hans mamsell aliquam id Pfourtz ! tellus
+      turpis, risus, gravida tellus vielmols, adipiscing Gal ! libero. geïz Mauris quam, Wurschtsalad condimentum
+      schneck
+      lotto-owe hopla barapli amet Richard Schirmeck habitant sed id, bissame wie lacus hopla und auctor, commodo DNA,
+      non
+      jetz gehts los hoplageiss schpeck gal purus quam. Morbi chambon mollis nüdle sit gewurztraminer tristique eget
+      Kabinetpapier sit rossbolla merci vielmols bredele picon bière nullam sagittis non réchime sit senectus
+      Salu bissame
+      ac Chulien kuglopf schnaps ftomi! ullamcorper Chulia Roberstau Heineken et tchao bissame Christkindelsmärik
+      Racing.
+      libero, wurscht ac Yo dû. knack dolor hopla ornare Carola yeuh. semper amet vulputate libero, in, météor varius
+      Oberschaeffolsheim kartoffelsalad turpis suspendisse elementum hopla knepfle porta s'guelt ch'ai munster
+      Pellentesque amet, Coopé de Truchtersheim dui hop eleifend ante dignissim pellentesque rucksack kougelhopf leo
+      Miss Dahlias blottkopf, elit so flammekueche mänele Verdammi placerat Gal. messti de Bischheim sed leverwurscht
+      Oberschaeffolsheim Salut bisamme baeckeoffe Spätzle salu geht's ornare
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sodales sapien vitae finibus ullamcorper. Integer
+      orci mauris, luctus id ex in, dictum molestie erat. Vivamus convallis venenatis finibus. Phasellus volutpat odio
+      massa, eu viverra urna vehicula vitae. Aenean consequat, nibh sed iaculis pharetra, dolor est scelerisque sapien,
+      id accumsan lacus neque in turpis. Nam pretium quam a pellentesque dictum. Nulla id orci ut dolor suscipit
+      vulputate sit amet vel nisl. Suspendisse ante arcu, molestie in dapibus ac, tempus ut sem. Vestibulum quis cursus
+      risus. Donec a molestie orci, ac laoreet sem. In elit magna, efficitur non dolor vel, tempor efficitur lectus.</p>
   </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>
