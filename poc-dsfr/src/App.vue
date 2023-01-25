@@ -45,8 +45,8 @@ const loadFromBackend = async () => movies.value = await allMovies()
                   <button class="fr-btn" @click="loadFromBackend">
                     Charger les films
                   </button>
-                  <div class="fr-table">
-                    <table>
+                  <div class="fr-table fr-table--layout-fixed">
+                    <table >
                       <thead>
                       <tr>
                         <th scope="col"> Titre</th>
