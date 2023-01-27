@@ -1,0 +1,72 @@
+[
+  {
+    "_class": "fr.agpm.pocs.sdr.Movie",
+    "title": "Fight Club",
+    "released": "1999-01-01",
+    "duration": "PT1H30M",
+    "actors": [
+      "Brad Pitt",
+      "Edward Norton"
+    ]
+  },
+  {
+    "_class": "fr.agpm.pocs.sdr.Movie",
+    "title": "Fight Club 2",
+    "released": "2000-01-01",
+    "duration": "PT1H30M",
+    "actors": [
+      "Brad Pitt",
+      "Edward Norton"
+    ]
+  },
+  {
+    "_class": "fr.agpm.pocs.sdr.Movie",
+    "title": "Fight Club 3",
+    "released": "2001-01-01",
+    "duration": "PT1H30M",
+    "actors": [
+      "Brad Pitt",
+      "Edward Norton"
+    ]
+  },
+  {
+    "_class": "fr.agpm.pocs.sdr.Movie",
+    "title": "Fight Club 4",
+    "released": "2002-01-01",
+    "duration": "PT1H30M",
+    "actors": [
+      "Brad Pitt",
+      "Edward Norton"
+    ]
+  },
+  {
+    "_class": "fr.agpm.pocs.sdr.Movie",
+    "title": "Fight Club 5",
+    "released": "2003-01-01",
+    "duration": "PT1H30M",
+    "actors": [
+      "Brad Pitt",
+      "Edward Norton"
+    ]
+  },
+  {
+    "_class": "fr.agpm.pocs.sdr.Movie",
+    "title": "Fight Club 6",
+    "released": "2004-01-01",
+    "duration": "PT1H30M",
+    "actors": [
+      "Brad Pitt",
+      "Edward Norton"
+    ]
+  },
+  {
+    "_class": "fr.agpm.pocs.sdr.Movie",
+    "title": "Fight Club 7",
+    "released": "2005-01-01",
+    "duration": "PT1H30M",
+    "actors": [
+      "Brad Pitt",
+      "Edward Norton"
+    ]
+  }
+]
